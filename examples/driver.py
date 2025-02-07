@@ -2,11 +2,13 @@ import numpy as np
 from goph420_lab00.operators import (
  add,
  multiply,
+ subtract,
  )
 def main():
 
  # test for scalars
  print(f'add(1, 3): {add(1, 3)}')
+ print(f'subtract(1, 3): {subtract(1, 3)}')
  print(f'multiply(2, 12.): {multiply(2, 12.)}')
  # test for arrays
  A = np.array([[1, 2, 3], [4, 5, 6]])
@@ -14,6 +16,7 @@ def main():
  print(f'A:\n{A}')
  print(f'B:\n{B}')
  print(f'add(A, B):\n{add(A, B)}')
+ print(f'subtract(A, B):\n{subtract(A, B)}')
  print(f'multiply(A, B):\n{multiply(A, B)}')
 if __name__ == '__main__':
  main()
