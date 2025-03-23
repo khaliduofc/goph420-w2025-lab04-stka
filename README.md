@@ -2,6 +2,28 @@
 
 *Semester:* W2025 
 *Instructor:* B. Karchewski 
-*Author:* <Enter your name here>
+*Author:* Khalid Abdulrahman
 
-An example repository setup for simple Python package
+# GOPH 420 - Lab 3 root finding 
+
+# Overview
+This Python project solves the Love wave dispersion equation using a modified secant method and plots the resulting curves.
+
+
+# Project Structure
+.
+├── examples/                  
+│   ├── driver.py           
+├── src/
+│   ├── goph420_lab03/
+│   │   ├── __init__.py            
+├── tests/                     
+├── figures/                   
+├── requirements.txt           
+├── pyproject.toml             
+├── .gitignore                 
+└── README.md                  
+
+ 
+
+
