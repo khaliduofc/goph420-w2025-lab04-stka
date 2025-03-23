@@ -1,19 +1,18 @@
 # GOPH 420 – Inversion and Parameter Estimation for Geophysicists
 
-*Semester:* W2025 
-*Instructor:* B. Karchewski 
+*Semester:* W2025  
+*Instructor:* B. Karchewski  
 *Author:* Khalid Abdulrahman
 
-# GOPH 420 - Lab 3 root finding 
+# GOPH 420 - Lab 3 Root Finding
 
-# Overview
+## Overview
 This Python project solves the Love wave dispersion equation using a modified secant method and plots the resulting curves.
 
-
-# Project Structure
+## Project Structure
 .
 ├── examples/                  
-│   ├── driver.py           
+│   ├── lab03.py           
 ├── src/
 │   ├── goph420_lab03/
 │   │   ├── __init__.py            
@@ -22,8 +21,4 @@ This Python project solves the Love wave dispersion equation using a modified se
 ├── requirements.txt           
 ├── pyproject.toml             
 ├── .gitignore                 
-└── README.md                  
-
- 
-
-
+└── README.md
