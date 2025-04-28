@@ -4,18 +4,19 @@
 *Instructor:* B. Karchewski  
 *Author:* Khalid Abdulrahman
 
-# GOPH 420 - Lab 3 Root Finding
+# GOPH 420 - Lab 4 linear least squares regression.
 
 ## Overview
-This Python project solves the Love wave dispersion equation using a modified secant method and plots the resulting curves.
+This Python project uses linear least squares regression to fit the Gutenberg–Richter frequency–magnitude relationship to earthquake event data. 
 
 ## Project Structure
 .
 ├── examples/                  
-│   ├── lab03.py           
+│   ├── driver.py           
 ├── src/
-│   ├── goph420_lab03/
-│   │   ├── __init__.py            
+│   ├── lab_04/
+│   │   ├── __init__.py
+│   │   ├── regression.py              
 ├── tests/                     
 ├── figures/                   
 ├── requirements.txt           
