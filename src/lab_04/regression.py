@@ -2,7 +2,7 @@ import numpy as np
 
 def multi_regress(y, Z):
     """
-    Perform multiple linear regression using normal equations (lecture notation).
+    Perform multiple linear regression
 
     Args:
         y (np.ndarray): Dependent variable vector (n_samples,)
