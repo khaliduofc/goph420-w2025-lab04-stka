@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "goph420_lab03"
+name = "goph420_lab04"
 version = "0.1.0"
-description = "GOPH 420/699 – Inv. and Param. Est. for Geoph. (W2025) Lab Assignment #3"
+description = "GOPH 420/699 – Inv. and Param. Est. for Geoph. (W2025) Lab Assignment #4"
 authors = ["Khalid Abdulrahman"]
 
 [tool.poetry.dependencies]
